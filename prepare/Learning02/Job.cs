@@ -11,6 +11,7 @@ public class Job
     public Job(string jobTitle, string company, int startYear, int endYear)
     {
         JobTitle = jobTitle;
+        Company = company;
         StartYear = startYear;
         EndYear = endYear;
     }
